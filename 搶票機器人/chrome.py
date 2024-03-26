@@ -22,8 +22,8 @@ username_field = driver.find_element(By.XPATH, username_xpath)
 password_field = driver.find_element(By.XPATH, password_xpath)
 
 # 輸入您的帳號和密碼
-username_field.send_keys('a1115513')
-password_field.send_keys('pei2004930725')
+username_field.send_keys('')
+password_field.send_keys('')
 
 button = driver.find_element(By.XPATH, "/html/body/div/form/table/tbody/tr[2]/td/input[1]")
 button.click()
